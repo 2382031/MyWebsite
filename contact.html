@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hazael Tanjung</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="myholiday.html">My Holiday</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="registration.html">Registration</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <aside>
+            <h2>Connect with Me</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/hazael" target="_blank">LinkedIn</a></li>
+                <li><a href="https://instagram.com/hazael" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/hazael" target="_blank">GitHub</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <h2>Get in Touch</h2>
+            <p>If you would like to reach out for collaborations, questions, or just to say hi, feel free to drop a
+                message using the form below:</p>
+            <form action="submit-contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Hazael Tanjung. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
